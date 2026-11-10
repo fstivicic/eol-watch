@@ -1,4 +1,4 @@
-## What is exposed today (2026-11-10 13:28 UTC)
+## What is exposed today (2026-11-10 13:32 UTC)
 
 17 security advisories currently land on end-of-life branches where no fix is being shipped for the dead line. The scan joins the GitHub Advisory Database against endoflife.date and runs daily.
 

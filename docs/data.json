@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-10 13:28 UTC",
+  "generated": "2026-11-10 13:32 UTC",
   "source": "https://github.com/fstivicic/eol-watch",
   "note": "Candidates, not confirmed exposures. A version range is not proof that vulnerable code exists in an EOL branch. Each entry needs the fix read and the construct located before it can be called real.",
   "count": 17,
