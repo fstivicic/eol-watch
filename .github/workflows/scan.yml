@@ -1,0 +1,54 @@
+name: scan
+
+# Runs daily. The archive accruing without anyone touching it is the point:
+# the asset grows on days nobody works.
+on:
+  schedule:
+    - cron: '0 7 * * *'
+  push:
+    branches: [master, main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Scan and publish every channel
+        run: python publish.py
+
+      - name: Sanity check the output
+        run: |
+          python - <<'PY'
+          import json, sys, os
+          for f in ["docs/index.md", "docs/data.json", "docs/feed.xml",
+                    "out/post-short.txt", "out/digest.txt"]:
+              if not os.path.exists(f) or os.path.getsize(f) == 0:
+                  sys.exit("missing or empty: " + f)
+          d = json.load(open("docs/data.json", encoding="utf-8"))
+          if "exposures" not in d or "generated" not in d:
+              sys.exit("data.json missing expected keys")
+          # An empty result is legitimate, a broken scan is not. Distinguish by
+          # requiring the structure to be right either way.
+          print("ok: %d exposures" % d["count"])
+          PY
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name  "eol-watch"
+          git config user.email "eol-watch@users.noreply.github.com"
+          git add docs out history
+          if git diff --staged --quiet; then
+            echo "no change"
+          else
+            git commit -m "scan: $(date -u +%Y-%m-%d)"
+            git push
+          fi

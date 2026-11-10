@@ -1,0 +1,648 @@
+{
+  "generated": "2026-11-10 13:28 UTC",
+  "source": "https://github.com/fstivicic/eol-watch",
+  "note": "Candidates, not confirmed exposures. A version range is not proof that vulnerable code exists in an EOL branch. Each entry needs the fix read and the construct located before it can be called real.",
+  "count": 17,
+  "exposures": [
+    {
+      "ghsa": "GHSA-ghwc-95x2-682j",
+      "cve": "CVE-2026-9082",
+      "severity": "critical",
+      "published": "2026-05-20",
+      "summary": "Drupal Core has a SQL Injection issue",
+      "product": "Drupal",
+      "package": "drupal/core",
+      "ecosystem": "composer",
+      "range": ">= 8.9.0, < 10.4.10",
+      "patched_in": "10.4.10",
+      "lines": [
+        {
+          "line": "10.3",
+          "eol_since": "2025-06-16",
+          "days_dead": 512,
+          "last_release": "10.3.14"
+        },
+        {
+          "line": "11.0",
+          "eol_since": "2025-06-16",
+          "days_dead": 512,
+          "last_release": "11.0.13"
+        },
+        {
+          "line": "10.2",
+          "eol_since": "2024-12-17",
+          "days_dead": 693,
+          "last_release": "10.2.12"
+        },
+        {
+          "line": "10.1",
+          "eol_since": "2024-06-20",
+          "days_dead": 873,
+          "last_release": "10.1.8"
+        },
+        {
+          "line": "10.0",
+          "eol_since": "2023-12-15",
+          "days_dead": 1061,
+          "last_release": "10.0.11"
+        }
+      ]
+    },
+    {
+      "ghsa": "GHSA-2xp9-vwfh-vxw4",
+      "cve": null,
+      "severity": "critical",
+      "published": "2026-09-08",
+      "summary": "Next.js: Unauthenticated Remote Code Execution in Image Optimization API when AVIF files are used",
+      "product": "Next.js",
+      "package": "next",
+      "ecosystem": "npm",
+      "range": ">= 10.0.0, < 15.5.24",
+      "patched_in": "15.5.24",
+      "lines": [
+        {
+          "line": "14",
+          "eol_since": "2025-10-26",
+          "days_dead": 380,
+          "last_release": "14.2.35"
+        },
+        {
+          "line": "13",
+          "eol_since": "2024-12-21",
+          "days_dead": 689,
+          "last_release": "13.5.11"
+        }
+      ]
+    },
+    {
+      "ghsa": "GHSA-p293-qw3h-jr36",
+      "cve": "CVE-2026-75604",
+      "severity": "critical",
+      "published": "2026-09-08",
+      "summary": "Next.js: Unauthenticated Remote Code Execution on windows-hosted servers",
+      "product": "Next.js",
+      "package": "next",
+      "ecosystem": "npm",
+      "range": ">= 13.4.0, < 15.5.24",
+      "patched_in": "15.5.24",
+      "lines": [
+        {
+          "line": "14",
+          "eol_since": "2025-10-26",
+          "days_dead": 380,
+          "last_release": "14.2.35"
+        },
+        {
+          "line": "13",
+          "eol_since": "2024-12-21",
+          "days_dead": 689,
+          "last_release": "13.5.11"
+        }
+      ]
+    },
+    {
+      "ghsa": "GHSA-2464-fhr4-w9xw",
+      "cve": null,
+      "severity": "critical",
+      "published": "2026-10-22",
+      "summary": "Next.js: Unauthenticated Remote Code Execution in Image Optimization API when SVG files are used",
+      "product": "Next.js",
+      "package": "next",
+      "ecosystem": "npm",
+      "range": ">= 10.0.0, <= 15.5.27",
+      "patched_in": "15.5.28",
+      "lines": [
+        {
+          "line": "14",
+          "eol_since": "2025-10-26",
+          "days_dead": 380,
+          "last_release": "14.2.35"
+        },
+        {
+          "line": "13",
+          "eol_since": "2024-12-21",
+          "days_dead": 689,
+          "last_release": "13.5.11"
+        }
+      ]
+    },
+    {
+      "ghsa": "GHSA-f9x3-7vq9-cph6",
+      "cve": "CVE-2026-114509",
+      "severity": "critical",
+      "published": "2026-10-23",
+      "summary": "Laravel TokenGuard authentication bypass through non-string API credentials",
+      "product": "Laravel",
+      "package": "laravel/framework",
+      "ecosystem": "composer",
+      "range": "< 12.68.0",
+      "patched_in": "12.68.0",
+      "lines": [
+        {
+          "line": "11",
+          "eol_since": "2026-03-12",
+          "days_dead": 243,
+          "last_release": "11.57.1"
+        },
+        {
+          "line": "10",
+          "eol_since": "2025-02-04",
+          "days_dead": 644,
+          "last_release": "10.50.4"
+        },
+        {
+          "line": "9",
+          "eol_since": "2024-02-06",
+          "days_dead": 1008,
+          "last_release": "9.52.23"
+        }
+      ]
+    },
+    {
+      "ghsa": "GHSA-m7v2-7gxm-vc2v",
+      "cve": "CVE-2026-45077",
+      "severity": "high",
+      "published": "2026-05-27",
+      "summary": "Symfony has Unauthenticated PHP Object Deserialization in MonologBridge server:log Listener",
+      "product": "Symfony",
+      "package": "symfony/symfony",
+      "ecosystem": "composer",
+      "range": "< 5.4.52",
+      "patched_in": "5.4.52",
+      "lines": [
+        {
+          "line": "7.3",
+          "eol_since": "2026-01-31",
+          "days_dead": 283,
+          "last_release": "7.3.11"
+        },
+        {
+          "line": "7.2",
+          "eol_since": "2025-07-31",
+          "days_dead": 467,
+          "last_release": "7.2.9"
+        },
+        {
+          "line": "7.1",
+          "eol_since": "2025-01-31",
+          "days_dead": 648,
+          "last_release": "7.1.11"
+        },
+        {
+          "line": "7.0",
+          "eol_since": "2024-07-31",
+          "days_dead": 832,
+          "last_release": "7.0.10"
+        },
+        {
+          "line": "6.3",
+          "eol_since": "2024-01-31",
+          "days_dead": 1014,
+          "last_release": "6.3.12"
+        },
+        {
+          "line": "4.4",
+          "eol_since": "2023-11-21",
+          "days_dead": 1085,
+          "last_release": "4.4.51"
+        }
+      ]
+    },
+    {
+      "ghsa": "GHSA-qpmx-3rfj-7rhv",
+      "cve": "CVE-2026-45067",
+      "severity": "high",
+      "published": "2026-05-27",
+      "summary": "Symfony has Email Header / SMTP Command Injection via CRLF in Symfony\\Component\\Mime\\Address",
+      "product": "Symfony",
+      "package": "symfony/symfony",
+      "ecosystem": "composer",
+      "range": "< 5.4.52",
+      "patched_in": "5.4.52",
+      "lines": [
+        {
+          "line": "7.3",
+          "eol_since": "2026-01-31",
+          "days_dead": 283,
+          "last_release": "7.3.11"
+        },
+        {
+          "line": "7.2",
+          "eol_since": "2025-07-31",
+          "days_dead": 467,
+          "last_release": "7.2.9"
+        },
+        {
+          "line": "7.1",
+          "eol_since": "2025-01-31",
+          "days_dead": 648,
+          "last_release": "7.1.11"
+        },
+        {
+          "line": "7.0",
+          "eol_since": "2024-07-31",
+          "days_dead": 832,
+          "last_release": "7.0.10"
+        },
+        {
+          "line": "6.3",
+          "eol_since": "2024-01-31",
+          "days_dead": 1014,
+          "last_release": "6.3.12"
+        },
+        {
+          "line": "4.4",
+          "eol_since": "2023-11-21",
+          "days_dead": 1085,
+          "last_release": "4.4.51"
+        }
+      ]
+    },
+    {
+      "ghsa": "GHSA-ph86-p8f6-f9r2",
+      "cve": "CVE-2026-45063",
+      "severity": "high",
+      "published": "2026-05-27",
+      "summary": "Symfony Vulnerable to Identity Spoofing via Unanchored DN Regex in X509Authenticator",
+      "product": "Symfony",
+      "package": "symfony/symfony",
+      "ecosystem": "composer",
+      "range": "< 5.4.52",
+      "patched_in": "5.4.52",
+      "lines": [
+        {
+          "line": "7.3",
+          "eol_since": "2026-01-31",
+          "days_dead": 283,
+          "last_release": "7.3.11"
+        },
+        {
+          "line": "7.2",
+          "eol_since": "2025-07-31",
+          "days_dead": 467,
+          "last_release": "7.2.9"
+        },
+        {
+          "line": "7.1",
+          "eol_since": "2025-01-31",
+          "days_dead": 648,
+          "last_release": "7.1.11"
+        },
+        {
+          "line": "7.0",
+          "eol_since": "2024-07-31",
+          "days_dead": 832,
+          "last_release": "7.0.10"
+        },
+        {
+          "line": "6.3",
+          "eol_since": "2024-01-31",
+          "days_dead": 1014,
+          "last_release": "6.3.12"
+        },
+        {
+          "line": "4.4",
+          "eol_since": "2023-11-21",
+          "days_dead": 1085,
+          "last_release": "4.4.51"
+        }
+      ]
+    },
+    {
+      "ghsa": "GHSA-6h46-9jf5-q59x",
+      "cve": "CVE-2026-48489",
+      "severity": "high",
+      "published": "2026-06-15",
+      "summary": "Symfony: Security Firewall Bypass via failure_forward Subrequest: Unauthenticated Access to access_control-Protected GET",
+      "product": "Symfony",
+      "package": "symfony/symfony",
+      "ecosystem": "composer",
+      "range": "< 5.4.53",
+      "patched_in": "5.4.53",
+      "lines": [
+        {
+          "line": "7.3",
+          "eol_since": "2026-01-31",
+          "days_dead": 283,
+          "last_release": "7.3.11"
+        },
+        {
+          "line": "7.2",
+          "eol_since": "2025-07-31",
+          "days_dead": 467,
+          "last_release": "7.2.9"
+        },
+        {
+          "line": "7.1",
+          "eol_since": "2025-01-31",
+          "days_dead": 648,
+          "last_release": "7.1.11"
+        },
+        {
+          "line": "7.0",
+          "eol_since": "2024-07-31",
+          "days_dead": 832,
+          "last_release": "7.0.10"
+        },
+        {
+          "line": "6.3",
+          "eol_since": "2024-01-31",
+          "days_dead": 1014,
+          "last_release": "6.3.12"
+        },
+        {
+          "line": "4.4",
+          "eol_since": "2023-11-21",
+          "days_dead": 1085,
+          "last_release": "4.4.51"
+        }
+      ]
+    },
+    {
+      "ghsa": "GHSA-5vg9-5847-vvmq",
+      "cve": null,
+      "severity": "high",
+      "published": "2026-06-17",
+      "summary": "Laravel Framework: CRLF injection in default email rule ",
+      "product": "Laravel",
+      "package": "laravel/framework",
+      "ecosystem": "composer",
+      "range": "< 12.60.0",
+      "patched_in": "12.60.0",
+      "lines": [
+        {
+          "line": "11",
+          "eol_since": "2026-03-12",
+          "days_dead": 243,
+          "last_release": "11.57.1"
+        },
+        {
+          "line": "10",
+          "eol_since": "2025-02-04",
+          "days_dead": 644,
+          "last_release": "10.50.4"
+        },
+        {
+          "line": "9",
+          "eol_since": "2024-02-06",
+          "days_dead": 1008,
+          "last_release": "9.52.23"
+        }
+      ]
+    },
+    {
+      "ghsa": "GHSA-89xv-2m56-2m9x",
+      "cve": "CVE-2026-64649",
+      "severity": "high",
+      "published": "2026-07-22",
+      "summary": "Next.js: Server-Side Request Forgery in Server Actions on custom servers",
+      "product": "Next.js",
+      "package": "next",
+      "ecosystem": "npm",
+      "range": ">= 14.1.1, < 15.5.21",
+      "patched_in": "15.5.21",
+      "lines": [
+        {
+          "line": "14",
+          "eol_since": "2025-10-26",
+          "days_dead": 380,
+          "last_release": "14.2.35"
+        }
+      ]
+    },
+    {
+      "ghsa": "GHSA-p9j2-gv94-2wf4",
+      "cve": "CVE-2026-64645",
+      "severity": "high",
+      "published": "2026-07-22",
+      "summary": "Next.js: Server-Side Request Forgery in rewrites via attacker-controlled destination hostname",
+      "product": "Next.js",
+      "package": "next",
+      "ecosystem": "npm",
+      "range": ">= 12.0.0, < 15.5.21",
+      "patched_in": "15.5.21",
+      "lines": [
+        {
+          "line": "14",
+          "eol_since": "2025-10-26",
+          "days_dead": 380,
+          "last_release": "14.2.35"
+        },
+        {
+          "line": "13",
+          "eol_since": "2024-12-21",
+          "days_dead": 689,
+          "last_release": "13.5.11"
+        }
+      ]
+    },
+    {
+      "ghsa": "GHSA-m99w-x7hq-7vfj",
+      "cve": "CVE-2026-64641",
+      "severity": "high",
+      "published": "2026-07-22",
+      "summary": "Next.js: Denial of Service in App Router using Server Actions",
+      "product": "Next.js",
+      "package": "next",
+      "ecosystem": "npm",
+      "range": ">= 13.0.0, < 15.5.21",
+      "patched_in": "15.5.21",
+      "lines": [
+        {
+          "line": "14",
+          "eol_since": "2025-10-26",
+          "days_dead": 380,
+          "last_release": "14.2.35"
+        },
+        {
+          "line": "13",
+          "eol_since": "2024-12-21",
+          "days_dead": 689,
+          "last_release": "13.5.11"
+        }
+      ]
+    },
+    {
+      "ghsa": "GHSA-wvqv-fj8w-qmhm",
+      "cve": "CVE-2026-15307",
+      "severity": "high",
+      "published": "2026-08-04",
+      "summary": "Django GeoDjango spatial lookups allow file writes and outbound requests through GDAL raster parsing",
+      "product": "Django",
+      "package": "django",
+      "ecosystem": "pip",
+      "range": "< 5.2.17",
+      "patched_in": "5.2.17",
+      "lines": [
+        {
+          "line": "4.2",
+          "eol_since": "2026-04-07",
+          "days_dead": 217,
+          "last_release": "4.2.30"
+        },
+        {
+          "line": "5.1",
+          "eol_since": "2025-12-03",
+          "days_dead": 342,
+          "last_release": "5.1.15"
+        },
+        {
+          "line": "5.0",
+          "eol_since": "2025-04-02",
+          "days_dead": 587,
+          "last_release": "5.0.14"
+        },
+        {
+          "line": "3.2",
+          "eol_since": "2024-04-01",
+          "days_dead": 953,
+          "last_release": "3.2.25"
+        },
+        {
+          "line": "4.1",
+          "eol_since": "2023-12-01",
+          "days_dead": 1075,
+          "last_release": "4.1.13"
+        }
+      ]
+    },
+    {
+      "ghsa": "GHSA-p3m5-59mp-jv5r",
+      "cve": "CVE-2026-94482",
+      "severity": "high",
+      "published": "2026-10-22",
+      "summary": "Next.js: Denial of Service in App Router using Server Actions",
+      "product": "Next.js",
+      "package": "next",
+      "ecosystem": "npm",
+      "range": ">= 13.0.0, <= 15.5.27",
+      "patched_in": "15.5.28",
+      "lines": [
+        {
+          "line": "14",
+          "eol_since": "2025-10-26",
+          "days_dead": 380,
+          "last_release": "14.2.35"
+        },
+        {
+          "line": "13",
+          "eol_since": "2024-12-21",
+          "days_dead": 689,
+          "last_release": "13.5.11"
+        }
+      ]
+    },
+    {
+      "ghsa": "GHSA-2v3c-qxhr-7vpv",
+      "cve": "CVE-2026-109413",
+      "severity": "high",
+      "published": "2026-10-27",
+      "summary": "Symfony: Unbounded Recursion in the YAML Inline Lexer Lets a Single Document Crash the Process",
+      "product": "Symfony",
+      "package": "symfony/symfony",
+      "ecosystem": "composer",
+      "range": ">= 2.0.0, < 5.4.54",
+      "patched_in": "5.4.54",
+      "lines": [
+        {
+          "line": "8.0",
+          "eol_since": "2026-07-31",
+          "days_dead": 102,
+          "last_release": "8.0.16"
+        },
+        {
+          "line": "7.3",
+          "eol_since": "2026-01-31",
+          "days_dead": 283,
+          "last_release": "7.3.11"
+        },
+        {
+          "line": "7.2",
+          "eol_since": "2025-07-31",
+          "days_dead": 467,
+          "last_release": "7.2.9"
+        },
+        {
+          "line": "7.1",
+          "eol_since": "2025-01-31",
+          "days_dead": 648,
+          "last_release": "7.1.11"
+        },
+        {
+          "line": "7.0",
+          "eol_since": "2024-07-31",
+          "days_dead": 832,
+          "last_release": "7.0.10"
+        },
+        {
+          "line": "6.3",
+          "eol_since": "2024-01-31",
+          "days_dead": 1014,
+          "last_release": "6.3.12"
+        },
+        {
+          "line": "4.4",
+          "eol_since": "2023-11-21",
+          "days_dead": 1085,
+          "last_release": "4.4.51"
+        }
+      ]
+    },
+    {
+      "ghsa": "GHSA-r925-mgvr-h9cc",
+      "cve": "CVE-2026-108082",
+      "severity": "high",
+      "published": "2026-10-27",
+      "summary": "Symfony: ReDoS in HeaderUtils::split() Reachable Through the Cache-Control Request Header",
+      "product": "Symfony",
+      "package": "symfony/symfony",
+      "ecosystem": "composer",
+      "range": ">= 6.0.1, < 6.4.46",
+      "patched_in": "6.4.46",
+      "lines": [
+        {
+          "line": "8.0",
+          "eol_since": "2026-07-31",
+          "days_dead": 102,
+          "last_release": "8.0.16"
+        },
+        {
+          "line": "7.3",
+          "eol_since": "2026-01-31",
+          "days_dead": 283,
+          "last_release": "7.3.11"
+        },
+        {
+          "line": "7.2",
+          "eol_since": "2025-07-31",
+          "days_dead": 467,
+          "last_release": "7.2.9"
+        },
+        {
+          "line": "7.1",
+          "eol_since": "2025-01-31",
+          "days_dead": 648,
+          "last_release": "7.1.11"
+        },
+        {
+          "line": "7.0",
+          "eol_since": "2024-07-31",
+          "days_dead": 832,
+          "last_release": "7.0.10"
+        },
+        {
+          "line": "6.3",
+          "eol_since": "2024-01-31",
+          "days_dead": 1014,
+          "last_release": "6.3.12"
+        },
+        {
+          "line": "4.4",
+          "eol_since": "2023-11-21",
+          "days_dead": 1085,
+          "last_release": "4.4.51"
+        }
+      ]
+    }
+  ]
+}

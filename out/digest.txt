@@ -1,0 +1,73 @@
+EOL Watch, 2026-11-10 13:28 UTC
+==================================================
+
+[CRITICAL] Drupal 10.3, 11.0, 10.2, 10.1, 10.0
+  Drupal Core has a SQL Injection issue
+  CVE-2026-9082  range >= 8.9.0, < 10.4.10  fixed in 10.4.10
+
+[CRITICAL] Next.js 14, 13
+  Next.js: Unauthenticated Remote Code Execution in Image Optimization API when AVIF files are used
+  GHSA-2xp9-vwfh-vxw4  range >= 10.0.0, < 15.5.24  fixed in 15.5.24
+
+[CRITICAL] Next.js 14, 13
+  Next.js: Unauthenticated Remote Code Execution on windows-hosted servers
+  CVE-2026-75604  range >= 13.4.0, < 15.5.24  fixed in 15.5.24
+
+[CRITICAL] Next.js 14, 13
+  Next.js: Unauthenticated Remote Code Execution in Image Optimization API when SVG files are used
+  GHSA-2464-fhr4-w9xw  range >= 10.0.0, <= 15.5.27  fixed in 15.5.28
+
+[CRITICAL] Laravel 11, 10, 9
+  Laravel TokenGuard authentication bypass through non-string API credentials
+  CVE-2026-114509  range < 12.68.0  fixed in 12.68.0
+
+[HIGH] Symfony 7.3, 7.2, 7.1, 7.0, 6.3, 4.4
+  Symfony has Unauthenticated PHP Object Deserialization in MonologBridge server:log Listener
+  CVE-2026-45077  range < 5.4.52  fixed in 5.4.52
+
+[HIGH] Symfony 7.3, 7.2, 7.1, 7.0, 6.3, 4.4
+  Symfony has Email Header / SMTP Command Injection via CRLF in Symfony\Component\Mime\Address
+  CVE-2026-45067  range < 5.4.52  fixed in 5.4.52
+
+[HIGH] Symfony 7.3, 7.2, 7.1, 7.0, 6.3, 4.4
+  Symfony Vulnerable to Identity Spoofing via Unanchored DN Regex in X509Authenticator
+  CVE-2026-45063  range < 5.4.52  fixed in 5.4.52
+
+[HIGH] Symfony 7.3, 7.2, 7.1, 7.0, 6.3, 4.4
+  Symfony: Security Firewall Bypass via failure_forward Subrequest: Unauthenticated Access to access_control-Protected GET
+  CVE-2026-48489  range < 5.4.53  fixed in 5.4.53
+
+[HIGH] Laravel 11, 10, 9
+  Laravel Framework: CRLF injection in default email rule 
+  GHSA-5vg9-5847-vvmq  range < 12.60.0  fixed in 12.60.0
+
+[HIGH] Next.js 14
+  Next.js: Server-Side Request Forgery in Server Actions on custom servers
+  CVE-2026-64649  range >= 14.1.1, < 15.5.21  fixed in 15.5.21
+
+[HIGH] Next.js 14, 13
+  Next.js: Server-Side Request Forgery in rewrites via attacker-controlled destination hostname
+  CVE-2026-64645  range >= 12.0.0, < 15.5.21  fixed in 15.5.21
+
+[HIGH] Next.js 14, 13
+  Next.js: Denial of Service in App Router using Server Actions
+  CVE-2026-64641  range >= 13.0.0, < 15.5.21  fixed in 15.5.21
+
+[HIGH] Django 4.2, 5.1, 5.0, 3.2, 4.1
+  Django GeoDjango spatial lookups allow file writes and outbound requests through GDAL raster parsing
+  CVE-2026-15307  range < 5.2.17  fixed in 5.2.17
+
+[HIGH] Next.js 14, 13
+  Next.js: Denial of Service in App Router using Server Actions
+  CVE-2026-94482  range >= 13.0.0, <= 15.5.27  fixed in 15.5.28
+
+[HIGH] Symfony 8.0, 7.3, 7.2, 7.1, 7.0, 6.3, 4.4
+  Symfony: Unbounded Recursion in the YAML Inline Lexer Lets a Single Document Crash the Process
+  CVE-2026-109413  range >= 2.0.0, < 5.4.54  fixed in 5.4.54
+
+[HIGH] Symfony 8.0, 7.3, 7.2, 7.1, 7.0, 6.3, 4.4
+  Symfony: ReDoS in HeaderUtils::split() Reachable Through the Cache-Control Request Header
+  CVE-2026-108082  range >= 6.0.1, < 6.4.46  fixed in 6.4.46
+
+Candidates, not confirmed exposures.
+https://fstivicic.github.io/eol-watch/

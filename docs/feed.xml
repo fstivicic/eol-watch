@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>EOL Watch</title>
+<link>https://fstivicic.github.io/eol-watch/</link>
+<description>Security advisories landing on end-of-life branches with no fix shipped for the dead line. Candidates, not confirmed exposures.</description>
+<lastBuildDate>Tue, 10 Nov 2026 13:28:13 +0000</lastBuildDate>
+<item>
+<title>CRITICAL: Drupal 10.3, 11.0, 10.2, 10.1, 10.0</title>
+<link>https://github.com/advisories/GHSA-ghwc-95x2-682j</link>
+<guid isPermaLink='false'>GHSA-ghwc-95x2-682j</guid>
+<description>Drupal Core has a SQL Injection issue Affected range &gt;= 8.9.0, &lt; 10.4.10, fixed in 10.4.10, nothing shipped for 10.3, 11.0, 10.2, 10.1, 10.0.</description>
+</item>
+<item>
+<title>CRITICAL: Next.js 14, 13</title>
+<link>https://github.com/advisories/GHSA-2xp9-vwfh-vxw4</link>
+<guid isPermaLink='false'>GHSA-2xp9-vwfh-vxw4</guid>
+<description>Next.js: Unauthenticated Remote Code Execution in Image Optimization API when AVIF files are used Affected range &gt;= 10.0.0, &lt; 15.5.24, fixed in 15.5.24, nothing shipped for 14, 13.</description>
+</item>
+<item>
+<title>CRITICAL: Next.js 14, 13</title>
+<link>https://github.com/advisories/GHSA-p293-qw3h-jr36</link>
+<guid isPermaLink='false'>GHSA-p293-qw3h-jr36</guid>
+<description>Next.js: Unauthenticated Remote Code Execution on windows-hosted servers Affected range &gt;= 13.4.0, &lt; 15.5.24, fixed in 15.5.24, nothing shipped for 14, 13.</description>
+</item>
+<item>
+<title>CRITICAL: Next.js 14, 13</title>
+<link>https://github.com/advisories/GHSA-2464-fhr4-w9xw</link>
+<guid isPermaLink='false'>GHSA-2464-fhr4-w9xw</guid>
+<description>Next.js: Unauthenticated Remote Code Execution in Image Optimization API when SVG files are used Affected range &gt;= 10.0.0, &lt;= 15.5.27, fixed in 15.5.28, nothing shipped for 14, 13.</description>
+</item>
+<item>
+<title>CRITICAL: Laravel 11, 10, 9</title>
+<link>https://github.com/advisories/GHSA-f9x3-7vq9-cph6</link>
+<guid isPermaLink='false'>GHSA-f9x3-7vq9-cph6</guid>
+<description>Laravel TokenGuard authentication bypass through non-string API credentials Affected range &lt; 12.68.0, fixed in 12.68.0, nothing shipped for 11, 10, 9.</description>
+</item>
+<item>
+<title>HIGH: Symfony 7.3, 7.2, 7.1, 7.0, 6.3, 4.4</title>
+<link>https://github.com/advisories/GHSA-m7v2-7gxm-vc2v</link>
+<guid isPermaLink='false'>GHSA-m7v2-7gxm-vc2v</guid>
+<description>Symfony has Unauthenticated PHP Object Deserialization in MonologBridge server:log Listener Affected range &lt; 5.4.52, fixed in 5.4.52, nothing shipped for 7.3, 7.2, 7.1, 7.0, 6.3, 4.4.</description>
+</item>
+<item>
+<title>HIGH: Symfony 7.3, 7.2, 7.1, 7.0, 6.3, 4.4</title>
+<link>https://github.com/advisories/GHSA-qpmx-3rfj-7rhv</link>
+<guid isPermaLink='false'>GHSA-qpmx-3rfj-7rhv</guid>
+<description>Symfony has Email Header / SMTP Command Injection via CRLF in Symfony\Component\Mime\Address Affected range &lt; 5.4.52, fixed in 5.4.52, nothing shipped for 7.3, 7.2, 7.1, 7.0, 6.3, 4.4.</description>
+</item>
+<item>
+<title>HIGH: Symfony 7.3, 7.2, 7.1, 7.0, 6.3, 4.4</title>
+<link>https://github.com/advisories/GHSA-ph86-p8f6-f9r2</link>
+<guid isPermaLink='false'>GHSA-ph86-p8f6-f9r2</guid>
+<description>Symfony Vulnerable to Identity Spoofing via Unanchored DN Regex in X509Authenticator Affected range &lt; 5.4.52, fixed in 5.4.52, nothing shipped for 7.3, 7.2, 7.1, 7.0, 6.3, 4.4.</description>
+</item>
+<item>
+<title>HIGH: Symfony 7.3, 7.2, 7.1, 7.0, 6.3, 4.4</title>
+<link>https://github.com/advisories/GHSA-6h46-9jf5-q59x</link>
+<guid isPermaLink='false'>GHSA-6h46-9jf5-q59x</guid>
+<description>Symfony: Security Firewall Bypass via failure_forward Subrequest: Unauthenticated Access to access_control-Protected GET Affected range &lt; 5.4.53, fixed in 5.4.53, nothing shipped for 7.3, 7.2, 7.1, 7.0, 6.3, 4.4.</description>
+</item>
+<item>
+<title>HIGH: Laravel 11, 10, 9</title>
+<link>https://github.com/advisories/GHSA-5vg9-5847-vvmq</link>
+<guid isPermaLink='false'>GHSA-5vg9-5847-vvmq</guid>
+<description>Laravel Framework: CRLF injection in default email rule  Affected range &lt; 12.60.0, fixed in 12.60.0, nothing shipped for 11, 10, 9.</description>
+</item>
+<item>
+<title>HIGH: Next.js 14</title>
+<link>https://github.com/advisories/GHSA-89xv-2m56-2m9x</link>
+<guid isPermaLink='false'>GHSA-89xv-2m56-2m9x</guid>
+<description>Next.js: Server-Side Request Forgery in Server Actions on custom servers Affected range &gt;= 14.1.1, &lt; 15.5.21, fixed in 15.5.21, nothing shipped for 14.</description>
+</item>
+<item>
+<title>HIGH: Next.js 14, 13</title>
+<link>https://github.com/advisories/GHSA-p9j2-gv94-2wf4</link>
+<guid isPermaLink='false'>GHSA-p9j2-gv94-2wf4</guid>
+<description>Next.js: Server-Side Request Forgery in rewrites via attacker-controlled destination hostname Affected range &gt;= 12.0.0, &lt; 15.5.21, fixed in 15.5.21, nothing shipped for 14, 13.</description>
+</item>
+<item>
+<title>HIGH: Next.js 14, 13</title>
+<link>https://github.com/advisories/GHSA-m99w-x7hq-7vfj</link>
+<guid isPermaLink='false'>GHSA-m99w-x7hq-7vfj</guid>
+<description>Next.js: Denial of Service in App Router using Server Actions Affected range &gt;= 13.0.0, &lt; 15.5.21, fixed in 15.5.21, nothing shipped for 14, 13.</description>
+</item>
+<item>
+<title>HIGH: Django 4.2, 5.1, 5.0, 3.2, 4.1</title>
+<link>https://github.com/advisories/GHSA-wvqv-fj8w-qmhm</link>
+<guid isPermaLink='false'>GHSA-wvqv-fj8w-qmhm</guid>
+<description>Django GeoDjango spatial lookups allow file writes and outbound requests through GDAL raster parsing Affected range &lt; 5.2.17, fixed in 5.2.17, nothing shipped for 4.2, 5.1, 5.0, 3.2, 4.1.</description>
+</item>
+<item>
+<title>HIGH: Next.js 14, 13</title>
+<link>https://github.com/advisories/GHSA-p3m5-59mp-jv5r</link>
+<guid isPermaLink='false'>GHSA-p3m5-59mp-jv5r</guid>
+<description>Next.js: Denial of Service in App Router using Server Actions Affected range &gt;= 13.0.0, &lt;= 15.5.27, fixed in 15.5.28, nothing shipped for 14, 13.</description>
+</item>
+<item>
+<title>HIGH: Symfony 8.0, 7.3, 7.2, 7.1, 7.0, 6.3, 4.4</title>
+<link>https://github.com/advisories/GHSA-2v3c-qxhr-7vpv</link>
+<guid isPermaLink='false'>GHSA-2v3c-qxhr-7vpv</guid>
+<description>Symfony: Unbounded Recursion in the YAML Inline Lexer Lets a Single Document Crash the Process Affected range &gt;= 2.0.0, &lt; 5.4.54, fixed in 5.4.54, nothing shipped for 8.0, 7.3, 7.2, 7.1, 7.0, 6.3, 4.4.</description>
+</item>
+<item>
+<title>HIGH: Symfony 8.0, 7.3, 7.2, 7.1, 7.0, 6.3, 4.4</title>
+<link>https://github.com/advisories/GHSA-r925-mgvr-h9cc</link>
+<guid isPermaLink='false'>GHSA-r925-mgvr-h9cc</guid>
+<description>Symfony: ReDoS in HeaderUtils::split() Reachable Through the Cache-Control Request Header Affected range &gt;= 6.0.1, &lt; 6.4.46, fixed in 6.4.46, nothing shipped for 8.0, 7.3, 7.2, 7.1, 7.0, 6.3, 4.4.</description>
+</item>
+</channel></rss>
