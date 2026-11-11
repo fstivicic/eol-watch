@@ -1,4 +1,4 @@
-EOL Watch, 2026-11-10 13:32 UTC
+EOL Watch, 2026-11-11 07:04 UTC
 ==================================================
 
 [CRITICAL] Drupal 10.3, 11.0, 10.2, 10.1, 10.0
@@ -17,9 +17,9 @@ EOL Watch, 2026-11-10 13:32 UTC
   Next.js: Unauthenticated Remote Code Execution in Image Optimization API when SVG files are used
   GHSA-2464-fhr4-w9xw  range >= 10.0.0, <= 15.5.27  fixed in 15.5.28
 
-[CRITICAL] Laravel 11, 10, 9
+[CRITICAL] Laravel 9
   Laravel TokenGuard authentication bypass through non-string API credentials
-  CVE-2026-114509  range < 12.68.0  fixed in 12.68.0
+  CVE-2026-114509  range < 10.50.4  fixed in 10.50.4
 
 [HIGH] Symfony 7.3, 7.2, 7.1, 7.0, 6.3, 4.4
   Symfony has Unauthenticated PHP Object Deserialization in MonologBridge server:log Listener
