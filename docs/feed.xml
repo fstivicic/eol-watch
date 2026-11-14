@@ -3,7 +3,7 @@
 <title>EOL Watch</title>
 <link>https://fstivicic.github.io/eol-watch/</link>
 <description>Security advisories landing on end-of-life branches with no fix shipped for the dead line. Candidates, not confirmed exposures.</description>
-<lastBuildDate>Fri, 13 Nov 2026 07:04:51 +0000</lastBuildDate>
+<lastBuildDate>Sat, 14 Nov 2026 07:04:19 +0000</lastBuildDate>
 <item>
 <title>CRITICAL: Drupal 10.3, 11.0, 10.2, 10.1, 10.0</title>
 <link>https://github.com/advisories/GHSA-ghwc-95x2-682j</link>
