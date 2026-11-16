@@ -1,4 +1,4 @@
-CRITICAL in Drupal 10.3, 11.0, 10.2, 10.1, 10.0. Range >= 8.9.0, < 10.4.10, fixed in 10.4.10, nothing shipped for the dead lines.
+CRITICAL in Next.js 14, 13. Range >= 10.0.0, < 15.5.24, fixed in 15.5.24, nothing shipped for the dead lines.
 
-17 advisories currently land on EOL branches.
+16 advisories currently land on EOL branches.
 https://fstivicic.github.io/eol-watch/

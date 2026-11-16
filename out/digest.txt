@@ -1,9 +1,5 @@
-EOL Watch, 2026-11-15 07:04 UTC
+EOL Watch, 2026-11-16 07:10 UTC
 ==================================================
-
-[CRITICAL] Drupal 10.3, 11.0, 10.2, 10.1, 10.0
-  Drupal Core has a SQL Injection issue
-  CVE-2026-9082  range >= 8.9.0, < 10.4.10  fixed in 10.4.10
 
 [CRITICAL] Next.js 14, 13
   Next.js: Unauthenticated Remote Code Execution in Image Optimization API when AVIF files are used
