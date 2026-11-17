@@ -1,4 +1,4 @@
-EOL Watch, 2026-11-16 07:10 UTC
+EOL Watch, 2026-11-17 07:05 UTC
 ==================================================
 
 [CRITICAL] Next.js 14, 13
@@ -64,6 +64,10 @@ EOL Watch, 2026-11-16 07:10 UTC
 [HIGH] Symfony 8.0, 7.3, 7.2, 7.1, 7.0, 6.3, 4.4
   Symfony: ReDoS in HeaderUtils::split() Reachable Through the Cache-Control Request Header
   CVE-2026-108082  range >= 6.0.1, < 6.4.46  fixed in 6.4.46
+
+[HIGH] SilverStripe 6.1, 6.0
+  Silverstripe Framework: RCE via i18nTextCollectorTask writer parameter
+  CVE-2026-91115  range >= 6.0.0, < 6.2.13  fixed in 6.2.13
 
 Candidates, not confirmed exposures.
 https://fstivicic.github.io/eol-watch/

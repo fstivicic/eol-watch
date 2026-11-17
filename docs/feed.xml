@@ -3,7 +3,7 @@
 <title>EOL Watch</title>
 <link>https://fstivicic.github.io/eol-watch/</link>
 <description>Security advisories landing on end-of-life branches with no fix shipped for the dead line. Candidates, not confirmed exposures.</description>
-<lastBuildDate>Mon, 16 Nov 2026 07:10:38 +0000</lastBuildDate>
+<lastBuildDate>Tue, 17 Nov 2026 07:05:36 +0000</lastBuildDate>
 <item>
 <title>CRITICAL: Next.js 14, 13</title>
 <link>https://github.com/advisories/GHSA-2xp9-vwfh-vxw4</link>
@@ -99,5 +99,11 @@
 <link>https://github.com/advisories/GHSA-r925-mgvr-h9cc</link>
 <guid isPermaLink='false'>GHSA-r925-mgvr-h9cc</guid>
 <description>Symfony: ReDoS in HeaderUtils::split() Reachable Through the Cache-Control Request Header Affected range &gt;= 6.0.1, &lt; 6.4.46, fixed in 6.4.46, nothing shipped for 8.0, 7.3, 7.2, 7.1, 7.0, 6.3, 4.4.</description>
+</item>
+<item>
+<title>HIGH: SilverStripe 6.1, 6.0</title>
+<link>https://github.com/advisories/GHSA-c94f-87xg-65wf</link>
+<guid isPermaLink='false'>GHSA-c94f-87xg-65wf</guid>
+<description>Silverstripe Framework: RCE via i18nTextCollectorTask writer parameter Affected range &gt;= 6.0.0, &lt; 6.2.13, fixed in 6.2.13, nothing shipped for 6.1, 6.0.</description>
 </item>
 </channel></rss>
