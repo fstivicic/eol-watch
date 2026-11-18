@@ -2,7 +2,7 @@
 
 Security advisories landing on end-of-life branches, where no fix is being shipped for the dead line.
 
-Updated automatically. Last run **2026-11-17 07:05 UTC**.
+Updated automatically. Last run **2026-11-18 07:05 UTC**.
 
 > **These are candidates, not confirmed exposures.** A version range is a statement about what a vendor reviewed, not about where a bug lives. Every entry here needs the actual fix read and the vulnerable construct located in the dead branch before it means anything. See [the cookbook](COOKBOOK.md) for how that is done, and [calibration](CALIBRATION.md) for how often this tool is wrong.
 
@@ -26,8 +26,8 @@ Next.js: Unauthenticated Remote Code Execution in Image Optimization API when AV
 
 Dead branches in range:
 
-- **14** &mdash; EOL since 2025-10-26 (387 days), last release `14.2.35`
-- **13** &mdash; EOL since 2024-12-21 (696 days), last release `13.5.11`
+- **14** &mdash; EOL since 2025-10-26 (388 days), last release `14.2.35`
+- **13** &mdash; EOL since 2024-12-21 (697 days), last release `13.5.11`
 
 ---
 
@@ -47,8 +47,8 @@ Next.js: Unauthenticated Remote Code Execution on windows-hosted servers
 
 Dead branches in range:
 
-- **14** &mdash; EOL since 2025-10-26 (387 days), last release `14.2.35`
-- **13** &mdash; EOL since 2024-12-21 (696 days), last release `13.5.11`
+- **14** &mdash; EOL since 2025-10-26 (388 days), last release `14.2.35`
+- **13** &mdash; EOL since 2024-12-21 (697 days), last release `13.5.11`
 
 ---
 
@@ -68,8 +68,8 @@ Next.js: Unauthenticated Remote Code Execution in Image Optimization API when SV
 
 Dead branches in range:
 
-- **14** &mdash; EOL since 2025-10-26 (387 days), last release `14.2.35`
-- **13** &mdash; EOL since 2024-12-21 (696 days), last release `13.5.11`
+- **14** &mdash; EOL since 2025-10-26 (388 days), last release `14.2.35`
+- **13** &mdash; EOL since 2024-12-21 (697 days), last release `13.5.11`
 
 ---
 
@@ -89,7 +89,7 @@ Laravel TokenGuard authentication bypass through non-string API credentials
 
 Dead branches in range:
 
-- **9** &mdash; EOL since 2024-02-06 (1015 days), last release `9.52.23`
+- **9** &mdash; EOL since 2024-02-06 (1016 days), last release `9.52.23`
 
 ---
 
@@ -109,12 +109,12 @@ Symfony has Unauthenticated PHP Object Deserialization in MonologBridge server:l
 
 Dead branches in range:
 
-- **7.3** &mdash; EOL since 2026-01-31 (290 days), last release `7.3.11`
-- **7.2** &mdash; EOL since 2025-07-31 (474 days), last release `7.2.9`
-- **7.1** &mdash; EOL since 2025-01-31 (655 days), last release `7.1.11`
-- **7.0** &mdash; EOL since 2024-07-31 (839 days), last release `7.0.10`
-- **6.3** &mdash; EOL since 2024-01-31 (1021 days), last release `6.3.12`
-- **4.4** &mdash; EOL since 2023-11-21 (1092 days), last release `4.4.51`
+- **7.3** &mdash; EOL since 2026-01-31 (291 days), last release `7.3.11`
+- **7.2** &mdash; EOL since 2025-07-31 (475 days), last release `7.2.9`
+- **7.1** &mdash; EOL since 2025-01-31 (656 days), last release `7.1.11`
+- **7.0** &mdash; EOL since 2024-07-31 (840 days), last release `7.0.10`
+- **6.3** &mdash; EOL since 2024-01-31 (1022 days), last release `6.3.12`
+- **4.4** &mdash; EOL since 2023-11-21 (1093 days), last release `4.4.51`
 
 ---
 
@@ -134,12 +134,12 @@ Symfony has Email Header / SMTP Command Injection via CRLF in Symfony\Component\
 
 Dead branches in range:
 
-- **7.3** &mdash; EOL since 2026-01-31 (290 days), last release `7.3.11`
-- **7.2** &mdash; EOL since 2025-07-31 (474 days), last release `7.2.9`
-- **7.1** &mdash; EOL since 2025-01-31 (655 days), last release `7.1.11`
-- **7.0** &mdash; EOL since 2024-07-31 (839 days), last release `7.0.10`
-- **6.3** &mdash; EOL since 2024-01-31 (1021 days), last release `6.3.12`
-- **4.4** &mdash; EOL since 2023-11-21 (1092 days), last release `4.4.51`
+- **7.3** &mdash; EOL since 2026-01-31 (291 days), last release `7.3.11`
+- **7.2** &mdash; EOL since 2025-07-31 (475 days), last release `7.2.9`
+- **7.1** &mdash; EOL since 2025-01-31 (656 days), last release `7.1.11`
+- **7.0** &mdash; EOL since 2024-07-31 (840 days), last release `7.0.10`
+- **6.3** &mdash; EOL since 2024-01-31 (1022 days), last release `6.3.12`
+- **4.4** &mdash; EOL since 2023-11-21 (1093 days), last release `4.4.51`
 
 ---
 
@@ -159,12 +159,12 @@ Symfony Vulnerable to Identity Spoofing via Unanchored DN Regex in X509Authentic
 
 Dead branches in range:
 
-- **7.3** &mdash; EOL since 2026-01-31 (290 days), last release `7.3.11`
-- **7.2** &mdash; EOL since 2025-07-31 (474 days), last release `7.2.9`
-- **7.1** &mdash; EOL since 2025-01-31 (655 days), last release `7.1.11`
-- **7.0** &mdash; EOL since 2024-07-31 (839 days), last release `7.0.10`
-- **6.3** &mdash; EOL since 2024-01-31 (1021 days), last release `6.3.12`
-- **4.4** &mdash; EOL since 2023-11-21 (1092 days), last release `4.4.51`
+- **7.3** &mdash; EOL since 2026-01-31 (291 days), last release `7.3.11`
+- **7.2** &mdash; EOL since 2025-07-31 (475 days), last release `7.2.9`
+- **7.1** &mdash; EOL since 2025-01-31 (656 days), last release `7.1.11`
+- **7.0** &mdash; EOL since 2024-07-31 (840 days), last release `7.0.10`
+- **6.3** &mdash; EOL since 2024-01-31 (1022 days), last release `6.3.12`
+- **4.4** &mdash; EOL since 2023-11-21 (1093 days), last release `4.4.51`
 
 ---
 
@@ -184,12 +184,12 @@ Symfony: Security Firewall Bypass via failure_forward Subrequest: Unauthenticate
 
 Dead branches in range:
 
-- **7.3** &mdash; EOL since 2026-01-31 (290 days), last release `7.3.11`
-- **7.2** &mdash; EOL since 2025-07-31 (474 days), last release `7.2.9`
-- **7.1** &mdash; EOL since 2025-01-31 (655 days), last release `7.1.11`
-- **7.0** &mdash; EOL since 2024-07-31 (839 days), last release `7.0.10`
-- **6.3** &mdash; EOL since 2024-01-31 (1021 days), last release `6.3.12`
-- **4.4** &mdash; EOL since 2023-11-21 (1092 days), last release `4.4.51`
+- **7.3** &mdash; EOL since 2026-01-31 (291 days), last release `7.3.11`
+- **7.2** &mdash; EOL since 2025-07-31 (475 days), last release `7.2.9`
+- **7.1** &mdash; EOL since 2025-01-31 (656 days), last release `7.1.11`
+- **7.0** &mdash; EOL since 2024-07-31 (840 days), last release `7.0.10`
+- **6.3** &mdash; EOL since 2024-01-31 (1022 days), last release `6.3.12`
+- **4.4** &mdash; EOL since 2023-11-21 (1093 days), last release `4.4.51`
 
 ---
 
@@ -209,9 +209,9 @@ Laravel Framework: CRLF injection in default email rule
 
 Dead branches in range:
 
-- **11** &mdash; EOL since 2026-03-12 (250 days), last release `11.57.1`
-- **10** &mdash; EOL since 2025-02-04 (651 days), last release `10.50.4`
-- **9** &mdash; EOL since 2024-02-06 (1015 days), last release `9.52.23`
+- **11** &mdash; EOL since 2026-03-12 (251 days), last release `11.57.1`
+- **10** &mdash; EOL since 2025-02-04 (652 days), last release `10.50.4`
+- **9** &mdash; EOL since 2024-02-06 (1016 days), last release `9.52.23`
 
 ---
 
@@ -231,7 +231,7 @@ Next.js: Server-Side Request Forgery in Server Actions on custom servers
 
 Dead branches in range:
 
-- **14** &mdash; EOL since 2025-10-26 (387 days), last release `14.2.35`
+- **14** &mdash; EOL since 2025-10-26 (388 days), last release `14.2.35`
 
 ---
 
@@ -251,8 +251,8 @@ Next.js: Server-Side Request Forgery in rewrites via attacker-controlled destina
 
 Dead branches in range:
 
-- **14** &mdash; EOL since 2025-10-26 (387 days), last release `14.2.35`
-- **13** &mdash; EOL since 2024-12-21 (696 days), last release `13.5.11`
+- **14** &mdash; EOL since 2025-10-26 (388 days), last release `14.2.35`
+- **13** &mdash; EOL since 2024-12-21 (697 days), last release `13.5.11`
 
 ---
 
@@ -272,8 +272,8 @@ Next.js: Denial of Service in App Router using Server Actions
 
 Dead branches in range:
 
-- **14** &mdash; EOL since 2025-10-26 (387 days), last release `14.2.35`
-- **13** &mdash; EOL since 2024-12-21 (696 days), last release `13.5.11`
+- **14** &mdash; EOL since 2025-10-26 (388 days), last release `14.2.35`
+- **13** &mdash; EOL since 2024-12-21 (697 days), last release `13.5.11`
 
 ---
 
@@ -293,11 +293,11 @@ Django GeoDjango spatial lookups allow file writes and outbound requests through
 
 Dead branches in range:
 
-- **4.2** &mdash; EOL since 2026-04-07 (224 days), last release `4.2.30`
-- **5.1** &mdash; EOL since 2025-12-03 (349 days), last release `5.1.15`
-- **5.0** &mdash; EOL since 2025-04-02 (594 days), last release `5.0.14`
-- **3.2** &mdash; EOL since 2024-04-01 (960 days), last release `3.2.25`
-- **4.1** &mdash; EOL since 2023-12-01 (1082 days), last release `4.1.13`
+- **4.2** &mdash; EOL since 2026-04-07 (225 days), last release `4.2.30`
+- **5.1** &mdash; EOL since 2025-12-03 (350 days), last release `5.1.15`
+- **5.0** &mdash; EOL since 2025-04-02 (595 days), last release `5.0.14`
+- **3.2** &mdash; EOL since 2024-04-01 (961 days), last release `3.2.25`
+- **4.1** &mdash; EOL since 2023-12-01 (1083 days), last release `4.1.13`
 
 ---
 
@@ -317,8 +317,8 @@ Next.js: Denial of Service in App Router using Server Actions
 
 Dead branches in range:
 
-- **14** &mdash; EOL since 2025-10-26 (387 days), last release `14.2.35`
-- **13** &mdash; EOL since 2024-12-21 (696 days), last release `13.5.11`
+- **14** &mdash; EOL since 2025-10-26 (388 days), last release `14.2.35`
+- **13** &mdash; EOL since 2024-12-21 (697 days), last release `13.5.11`
 
 ---
 
@@ -338,13 +338,13 @@ Symfony: Unbounded Recursion in the YAML Inline Lexer Lets a Single Document Cra
 
 Dead branches in range:
 
-- **8.0** &mdash; EOL since 2026-07-31 (109 days), last release `8.0.16`
-- **7.3** &mdash; EOL since 2026-01-31 (290 days), last release `7.3.11`
-- **7.2** &mdash; EOL since 2025-07-31 (474 days), last release `7.2.9`
-- **7.1** &mdash; EOL since 2025-01-31 (655 days), last release `7.1.11`
-- **7.0** &mdash; EOL since 2024-07-31 (839 days), last release `7.0.10`
-- **6.3** &mdash; EOL since 2024-01-31 (1021 days), last release `6.3.12`
-- **4.4** &mdash; EOL since 2023-11-21 (1092 days), last release `4.4.51`
+- **8.0** &mdash; EOL since 2026-07-31 (110 days), last release `8.0.16`
+- **7.3** &mdash; EOL since 2026-01-31 (291 days), last release `7.3.11`
+- **7.2** &mdash; EOL since 2025-07-31 (475 days), last release `7.2.9`
+- **7.1** &mdash; EOL since 2025-01-31 (656 days), last release `7.1.11`
+- **7.0** &mdash; EOL since 2024-07-31 (840 days), last release `7.0.10`
+- **6.3** &mdash; EOL since 2024-01-31 (1022 days), last release `6.3.12`
+- **4.4** &mdash; EOL since 2023-11-21 (1093 days), last release `4.4.51`
 
 ---
 
@@ -364,13 +364,13 @@ Symfony: ReDoS in HeaderUtils::split() Reachable Through the Cache-Control Reque
 
 Dead branches in range:
 
-- **8.0** &mdash; EOL since 2026-07-31 (109 days), last release `8.0.16`
-- **7.3** &mdash; EOL since 2026-01-31 (290 days), last release `7.3.11`
-- **7.2** &mdash; EOL since 2025-07-31 (474 days), last release `7.2.9`
-- **7.1** &mdash; EOL since 2025-01-31 (655 days), last release `7.1.11`
-- **7.0** &mdash; EOL since 2024-07-31 (839 days), last release `7.0.10`
-- **6.3** &mdash; EOL since 2024-01-31 (1021 days), last release `6.3.12`
-- **4.4** &mdash; EOL since 2023-11-21 (1092 days), last release `4.4.51`
+- **8.0** &mdash; EOL since 2026-07-31 (110 days), last release `8.0.16`
+- **7.3** &mdash; EOL since 2026-01-31 (291 days), last release `7.3.11`
+- **7.2** &mdash; EOL since 2025-07-31 (475 days), last release `7.2.9`
+- **7.1** &mdash; EOL since 2025-01-31 (656 days), last release `7.1.11`
+- **7.0** &mdash; EOL since 2024-07-31 (840 days), last release `7.0.10`
+- **6.3** &mdash; EOL since 2024-01-31 (1022 days), last release `6.3.12`
+- **4.4** &mdash; EOL since 2023-11-21 (1093 days), last release `4.4.51`
 
 ---
 
@@ -390,6 +390,6 @@ Silverstripe Framework: RCE via i18nTextCollectorTask writer parameter
 
 Dead branches in range:
 
-- **6.1** &mdash; EOL since 2026-10-18 (30 days), last release `6.1.0`
-- **6.0** &mdash; EOL since 2026-04-14 (217 days), last release `6.0.0`
+- **6.1** &mdash; EOL since 2026-10-18 (31 days), last release `6.1.0`
+- **6.0** &mdash; EOL since 2026-04-14 (218 days), last release `6.0.0`
 
