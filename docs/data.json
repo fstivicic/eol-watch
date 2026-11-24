@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-23 07:05 UTC",
+  "generated": "2026-11-24 07:05 UTC",
   "source": "https://github.com/fstivicic/eol-watch",
   "note": "Candidates, not confirmed exposures. A version range is not proof that vulnerable code exists in an EOL branch. Each entry needs the fix read and the construct located before it can be called real.",
-  "count": 18,
+  "count": 15,
   "exposures": [
     {
       "ghsa": "GHSA-2xp9-vwfh-vxw4",
@@ -19,13 +19,13 @@
         {
           "line": "14",
           "eol_since": "2025-10-26",
-          "days_dead": 393,
+          "days_dead": 394,
           "last_release": "14.2.35"
         },
         {
           "line": "13",
           "eol_since": "2024-12-21",
-          "days_dead": 702,
+          "days_dead": 703,
           "last_release": "13.5.11"
         }
       ]
@@ -45,13 +45,13 @@
         {
           "line": "14",
           "eol_since": "2025-10-26",
-          "days_dead": 393,
+          "days_dead": 394,
           "last_release": "14.2.35"
         },
         {
           "line": "13",
           "eol_since": "2024-12-21",
-          "days_dead": 702,
+          "days_dead": 703,
           "last_release": "13.5.11"
         }
       ]
@@ -71,13 +71,13 @@
         {
           "line": "14",
           "eol_since": "2025-10-26",
-          "days_dead": 393,
+          "days_dead": 394,
           "last_release": "14.2.35"
         },
         {
           "line": "13",
           "eol_since": "2024-12-21",
-          "days_dead": 702,
+          "days_dead": 703,
           "last_release": "13.5.11"
         }
       ]
@@ -97,140 +97,8 @@
         {
           "line": "9",
           "eol_since": "2024-02-06",
-          "days_dead": 1021,
+          "days_dead": 1022,
           "last_release": "9.52.23"
-        }
-      ]
-    },
-    {
-      "ghsa": "GHSA-m7v2-7gxm-vc2v",
-      "cve": "CVE-2026-45077",
-      "severity": "high",
-      "published": "2026-05-27",
-      "summary": "Symfony has Unauthenticated PHP Object Deserialization in MonologBridge server:log Listener",
-      "product": "Symfony",
-      "package": "symfony/symfony",
-      "ecosystem": "composer",
-      "range": ">= 6.0.0, < 6.4.40",
-      "patched_in": "6.4.40",
-      "lines": [
-        {
-          "line": "7.3",
-          "eol_since": "2026-01-31",
-          "days_dead": 296,
-          "last_release": "7.3.11"
-        },
-        {
-          "line": "7.2",
-          "eol_since": "2025-07-31",
-          "days_dead": 480,
-          "last_release": "7.2.9"
-        },
-        {
-          "line": "7.1",
-          "eol_since": "2025-01-31",
-          "days_dead": 661,
-          "last_release": "7.1.11"
-        },
-        {
-          "line": "7.0",
-          "eol_since": "2024-07-31",
-          "days_dead": 845,
-          "last_release": "7.0.10"
-        },
-        {
-          "line": "6.3",
-          "eol_since": "2024-01-31",
-          "days_dead": 1027,
-          "last_release": "6.3.12"
-        }
-      ]
-    },
-    {
-      "ghsa": "GHSA-qpmx-3rfj-7rhv",
-      "cve": "CVE-2026-45067",
-      "severity": "high",
-      "published": "2026-05-27",
-      "summary": "Symfony has Email Header / SMTP Command Injection via CRLF in Symfony\\Component\\Mime\\Address",
-      "product": "Symfony",
-      "package": "symfony/symfony",
-      "ecosystem": "composer",
-      "range": ">= 6.0.0, < 6.4.40",
-      "patched_in": "6.4.40",
-      "lines": [
-        {
-          "line": "7.3",
-          "eol_since": "2026-01-31",
-          "days_dead": 296,
-          "last_release": "7.3.11"
-        },
-        {
-          "line": "7.2",
-          "eol_since": "2025-07-31",
-          "days_dead": 480,
-          "last_release": "7.2.9"
-        },
-        {
-          "line": "7.1",
-          "eol_since": "2025-01-31",
-          "days_dead": 661,
-          "last_release": "7.1.11"
-        },
-        {
-          "line": "7.0",
-          "eol_since": "2024-07-31",
-          "days_dead": 845,
-          "last_release": "7.0.10"
-        },
-        {
-          "line": "6.3",
-          "eol_since": "2024-01-31",
-          "days_dead": 1027,
-          "last_release": "6.3.12"
-        }
-      ]
-    },
-    {
-      "ghsa": "GHSA-ph86-p8f6-f9r2",
-      "cve": "CVE-2026-45063",
-      "severity": "high",
-      "published": "2026-05-27",
-      "summary": "Symfony Vulnerable to Identity Spoofing via Unanchored DN Regex in X509Authenticator",
-      "product": "Symfony",
-      "package": "symfony/symfony",
-      "ecosystem": "composer",
-      "range": ">= 6.0.0-BETA1, < 6.4.40",
-      "patched_in": "6.4.40",
-      "lines": [
-        {
-          "line": "7.3",
-          "eol_since": "2026-01-31",
-          "days_dead": 296,
-          "last_release": "7.3.11"
-        },
-        {
-          "line": "7.2",
-          "eol_since": "2025-07-31",
-          "days_dead": 480,
-          "last_release": "7.2.9"
-        },
-        {
-          "line": "7.1",
-          "eol_since": "2025-01-31",
-          "days_dead": 661,
-          "last_release": "7.1.11"
-        },
-        {
-          "line": "7.0",
-          "eol_since": "2024-07-31",
-          "days_dead": 845,
-          "last_release": "7.0.10"
-        },
-        {
-          "line": "6.3",
-          "eol_since": "2024-01-31",
-          "days_dead": 1027,
-          "last_release": "6.3.12"
         }
       ]
     },
@@ -249,31 +117,31 @@
         {
           "line": "7.3",
           "eol_since": "2026-01-31",
-          "days_dead": 296,
+          "days_dead": 297,
           "last_release": "7.3.11"
         },
         {
           "line": "7.2",
           "eol_since": "2025-07-31",
-          "days_dead": 480,
+          "days_dead": 481,
           "last_release": "7.2.9"
         },
         {
           "line": "7.1",
           "eol_since": "2025-01-31",
-          "days_dead": 661,
+          "days_dead": 662,
           "last_release": "7.1.11"
         },
         {
           "line": "7.0",
           "eol_since": "2024-07-31",
-          "days_dead": 845,
+          "days_dead": 846,
           "last_release": "7.0.10"
         },
         {
           "line": "6.3",
           "eol_since": "2024-01-31",
-          "days_dead": 1027,
+          "days_dead": 1028,
           "last_release": "6.3.12"
         }
       ]
@@ -293,19 +161,19 @@
         {
           "line": "11",
           "eol_since": "2026-03-12",
-          "days_dead": 256,
+          "days_dead": 257,
           "last_release": "11.57.1"
         },
         {
           "line": "10",
           "eol_since": "2025-02-04",
-          "days_dead": 657,
+          "days_dead": 658,
           "last_release": "10.50.4"
         },
         {
           "line": "9",
           "eol_since": "2024-02-06",
-          "days_dead": 1021,
+          "days_dead": 1022,
           "last_release": "9.52.23"
         }
       ]
@@ -325,7 +193,7 @@
         {
           "line": "14",
           "eol_since": "2025-10-26",
-          "days_dead": 393,
+          "days_dead": 394,
           "last_release": "14.2.35"
         }
       ]
@@ -345,13 +213,13 @@
         {
           "line": "14",
           "eol_since": "2025-10-26",
-          "days_dead": 393,
+          "days_dead": 394,
           "last_release": "14.2.35"
         },
         {
           "line": "13",
           "eol_since": "2024-12-21",
-          "days_dead": 702,
+          "days_dead": 703,
           "last_release": "13.5.11"
         }
       ]
@@ -371,13 +239,13 @@
         {
           "line": "14",
           "eol_since": "2025-10-26",
-          "days_dead": 393,
+          "days_dead": 394,
           "last_release": "14.2.35"
         },
         {
           "line": "13",
           "eol_since": "2024-12-21",
-          "days_dead": 702,
+          "days_dead": 703,
           "last_release": "13.5.11"
         }
       ]
@@ -397,31 +265,31 @@
         {
           "line": "4.2",
           "eol_since": "2026-04-07",
-          "days_dead": 230,
+          "days_dead": 231,
           "last_release": "4.2.30"
         },
         {
           "line": "5.1",
           "eol_since": "2025-12-03",
-          "days_dead": 355,
+          "days_dead": 356,
           "last_release": "5.1.15"
         },
         {
           "line": "5.0",
           "eol_since": "2025-04-02",
-          "days_dead": 600,
+          "days_dead": 601,
           "last_release": "5.0.14"
         },
         {
           "line": "3.2",
           "eol_since": "2024-04-01",
-          "days_dead": 966,
+          "days_dead": 967,
           "last_release": "3.2.25"
         },
         {
           "line": "4.1",
           "eol_since": "2023-12-01",
-          "days_dead": 1088,
+          "days_dead": 1089,
           "last_release": "4.1.13"
         }
       ]
@@ -441,13 +309,13 @@
         {
           "line": "14",
           "eol_since": "2025-10-26",
-          "days_dead": 393,
+          "days_dead": 394,
           "last_release": "14.2.35"
         },
         {
           "line": "13",
           "eol_since": "2024-12-21",
-          "days_dead": 702,
+          "days_dead": 703,
           "last_release": "13.5.11"
         }
       ]
@@ -467,37 +335,37 @@
         {
           "line": "8.0",
           "eol_since": "2026-07-31",
-          "days_dead": 115,
+          "days_dead": 116,
           "last_release": "8.0.16"
         },
         {
           "line": "7.3",
           "eol_since": "2026-01-31",
-          "days_dead": 296,
+          "days_dead": 297,
           "last_release": "7.3.11"
         },
         {
           "line": "7.2",
           "eol_since": "2025-07-31",
-          "days_dead": 480,
+          "days_dead": 481,
           "last_release": "7.2.9"
         },
         {
           "line": "7.1",
           "eol_since": "2025-01-31",
-          "days_dead": 661,
+          "days_dead": 662,
           "last_release": "7.1.11"
         },
         {
           "line": "7.0",
           "eol_since": "2024-07-31",
-          "days_dead": 845,
+          "days_dead": 846,
           "last_release": "7.0.10"
         },
         {
           "line": "6.3",
           "eol_since": "2024-01-31",
-          "days_dead": 1027,
+          "days_dead": 1028,
           "last_release": "6.3.12"
         }
       ]
@@ -517,37 +385,37 @@
         {
           "line": "8.0",
           "eol_since": "2026-07-31",
-          "days_dead": 115,
+          "days_dead": 116,
           "last_release": "8.0.16"
         },
         {
           "line": "7.3",
           "eol_since": "2026-01-31",
-          "days_dead": 296,
+          "days_dead": 297,
           "last_release": "7.3.11"
         },
         {
           "line": "7.2",
           "eol_since": "2025-07-31",
-          "days_dead": 480,
+          "days_dead": 481,
           "last_release": "7.2.9"
         },
         {
           "line": "7.1",
           "eol_since": "2025-01-31",
-          "days_dead": 661,
+          "days_dead": 662,
           "last_release": "7.1.11"
         },
         {
           "line": "7.0",
           "eol_since": "2024-07-31",
-          "days_dead": 845,
+          "days_dead": 846,
           "last_release": "7.0.10"
         },
         {
           "line": "6.3",
           "eol_since": "2024-01-31",
-          "days_dead": 1027,
+          "days_dead": 1028,
           "last_release": "6.3.12"
         }
       ]
@@ -567,13 +435,13 @@
         {
           "line": "6.1",
           "eol_since": "2026-10-18",
-          "days_dead": 36,
+          "days_dead": 37,
           "last_release": "6.1.0"
         },
         {
           "line": "6.0",
           "eol_since": "2026-04-14",
-          "days_dead": 223,
+          "days_dead": 224,
           "last_release": "6.0.0"
         }
       ]
@@ -593,25 +461,25 @@
         {
           "line": "5.6",
           "eol_since": "2026-02-14",
-          "days_dead": 282,
+          "days_dead": 283,
           "last_release": "5.6.11"
         },
         {
           "line": "5.5",
           "eol_since": "2025-08-14",
-          "days_dead": 466,
+          "days_dead": 467,
           "last_release": "5.5.16"
         },
         {
           "line": "5.4",
           "eol_since": "2025-02-14",
-          "days_dead": 647,
+          "days_dead": 648,
           "last_release": "5.4.14"
         },
         {
           "line": "5.2",
           "eol_since": "2024-02-14",
-          "days_dead": 1013,
+          "days_dead": 1014,
           "last_release": "5.2.10"
         }
       ]

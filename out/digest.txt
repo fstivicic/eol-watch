@@ -1,4 +1,4 @@
-EOL Watch, 2026-11-23 07:05 UTC
+EOL Watch, 2026-11-24 07:05 UTC
 ==================================================
 
 [CRITICAL] Next.js 14, 13
@@ -16,18 +16,6 @@ EOL Watch, 2026-11-23 07:05 UTC
 [CRITICAL] Laravel 9
   Laravel TokenGuard authentication bypass through non-string API credentials
   CVE-2026-114509  range < 10.50.4  fixed in 10.50.4
-
-[HIGH] Symfony 7.3, 7.2, 7.1, 7.0, 6.3
-  Symfony has Unauthenticated PHP Object Deserialization in MonologBridge server:log Listener
-  CVE-2026-45077  range >= 6.0.0, < 6.4.40  fixed in 6.4.40
-
-[HIGH] Symfony 7.3, 7.2, 7.1, 7.0, 6.3
-  Symfony has Email Header / SMTP Command Injection via CRLF in Symfony\Component\Mime\Address
-  CVE-2026-45067  range >= 6.0.0, < 6.4.40  fixed in 6.4.40
-
-[HIGH] Symfony 7.3, 7.2, 7.1, 7.0, 6.3
-  Symfony Vulnerable to Identity Spoofing via Unanchored DN Regex in X509Authenticator
-  CVE-2026-45063  range >= 6.0.0-BETA1, < 6.4.40  fixed in 6.4.40
 
 [HIGH] Symfony 7.3, 7.2, 7.1, 7.0, 6.3
   Symfony: Security Firewall Bypass via failure_forward Subrequest: Unauthenticated Access to access_control-Protected GET

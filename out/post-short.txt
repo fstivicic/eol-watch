@@ -1,4 +1,4 @@
 CRITICAL in Next.js 14, 13. Range >= 10.0.0, < 15.5.24, fixed in 15.5.24, nothing shipped for the dead lines.
 
-18 advisories currently land on EOL branches.
+15 advisories currently land on EOL branches.
 https://fstivicic.github.io/eol-watch/

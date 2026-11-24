@@ -3,7 +3,7 @@
 <title>EOL Watch</title>
 <link>https://fstivicic.github.io/eol-watch/</link>
 <description>Security advisories landing on end-of-life branches with no fix shipped for the dead line. Candidates, not confirmed exposures.</description>
-<lastBuildDate>Mon, 23 Nov 2026 07:05:52 +0000</lastBuildDate>
+<lastBuildDate>Tue, 24 Nov 2026 07:05:07 +0000</lastBuildDate>
 <item>
 <title>CRITICAL: Next.js 14, 13</title>
 <link>https://github.com/advisories/GHSA-2xp9-vwfh-vxw4</link>
@@ -27,24 +27,6 @@
 <link>https://github.com/advisories/GHSA-f9x3-7vq9-cph6</link>
 <guid isPermaLink='false'>GHSA-f9x3-7vq9-cph6</guid>
 <description>Laravel TokenGuard authentication bypass through non-string API credentials Affected range &lt; 10.50.4, fixed in 10.50.4, nothing shipped for 9.</description>
-</item>
-<item>
-<title>HIGH: Symfony 7.3, 7.2, 7.1, 7.0, 6.3</title>
-<link>https://github.com/advisories/GHSA-m7v2-7gxm-vc2v</link>
-<guid isPermaLink='false'>GHSA-m7v2-7gxm-vc2v</guid>
-<description>Symfony has Unauthenticated PHP Object Deserialization in MonologBridge server:log Listener Affected range &gt;= 6.0.0, &lt; 6.4.40, fixed in 6.4.40, nothing shipped for 7.3, 7.2, 7.1, 7.0, 6.3.</description>
-</item>
-<item>
-<title>HIGH: Symfony 7.3, 7.2, 7.1, 7.0, 6.3</title>
-<link>https://github.com/advisories/GHSA-qpmx-3rfj-7rhv</link>
-<guid isPermaLink='false'>GHSA-qpmx-3rfj-7rhv</guid>
-<description>Symfony has Email Header / SMTP Command Injection via CRLF in Symfony\Component\Mime\Address Affected range &gt;= 6.0.0, &lt; 6.4.40, fixed in 6.4.40, nothing shipped for 7.3, 7.2, 7.1, 7.0, 6.3.</description>
-</item>
-<item>
-<title>HIGH: Symfony 7.3, 7.2, 7.1, 7.0, 6.3</title>
-<link>https://github.com/advisories/GHSA-ph86-p8f6-f9r2</link>
-<guid isPermaLink='false'>GHSA-ph86-p8f6-f9r2</guid>
-<description>Symfony Vulnerable to Identity Spoofing via Unanchored DN Regex in X509Authenticator Affected range &gt;= 6.0.0-BETA1, &lt; 6.4.40, fixed in 6.4.40, nothing shipped for 7.3, 7.2, 7.1, 7.0, 6.3.</description>
 </item>
 <item>
 <title>HIGH: Symfony 7.3, 7.2, 7.1, 7.0, 6.3</title>
