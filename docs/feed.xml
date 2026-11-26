@@ -3,7 +3,7 @@
 <title>EOL Watch</title>
 <link>https://fstivicic.github.io/eol-watch/</link>
 <description>Security advisories landing on end-of-life branches with no fix shipped for the dead line. Candidates, not confirmed exposures.</description>
-<lastBuildDate>Wed, 25 Nov 2026 07:05:36 +0000</lastBuildDate>
+<lastBuildDate>Thu, 26 Nov 2026 07:05:22 +0000</lastBuildDate>
 <item>
 <title>CRITICAL: Next.js 14, 13</title>
 <link>https://github.com/advisories/GHSA-2xp9-vwfh-vxw4</link>

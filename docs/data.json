@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-25 07:05 UTC",
+  "generated": "2026-11-26 07:05 UTC",
   "source": "https://github.com/fstivicic/eol-watch",
   "note": "Candidates, not confirmed exposures. A version range is not proof that vulnerable code exists in an EOL branch. Each entry needs the fix read and the construct located before it can be called real.",
   "count": 15,
@@ -19,13 +19,13 @@
         {
           "line": "14",
           "eol_since": "2025-10-26",
-          "days_dead": 395,
+          "days_dead": 396,
           "last_release": "14.2.35"
         },
         {
           "line": "13",
           "eol_since": "2024-12-21",
-          "days_dead": 704,
+          "days_dead": 705,
           "last_release": "13.5.11"
         }
       ]
@@ -45,13 +45,13 @@
         {
           "line": "14",
           "eol_since": "2025-10-26",
-          "days_dead": 395,
+          "days_dead": 396,
           "last_release": "14.2.35"
         },
         {
           "line": "13",
           "eol_since": "2024-12-21",
-          "days_dead": 704,
+          "days_dead": 705,
           "last_release": "13.5.11"
         }
       ]
@@ -71,13 +71,13 @@
         {
           "line": "14",
           "eol_since": "2025-10-26",
-          "days_dead": 395,
+          "days_dead": 396,
           "last_release": "14.2.35"
         },
         {
           "line": "13",
           "eol_since": "2024-12-21",
-          "days_dead": 704,
+          "days_dead": 705,
           "last_release": "13.5.11"
         }
       ]
@@ -97,7 +97,7 @@
         {
           "line": "9",
           "eol_since": "2024-02-06",
-          "days_dead": 1023,
+          "days_dead": 1024,
           "last_release": "9.52.24"
         }
       ]
@@ -117,31 +117,31 @@
         {
           "line": "7.3",
           "eol_since": "2026-01-31",
-          "days_dead": 298,
+          "days_dead": 299,
           "last_release": "7.3.11"
         },
         {
           "line": "7.2",
           "eol_since": "2025-07-31",
-          "days_dead": 482,
+          "days_dead": 483,
           "last_release": "7.2.9"
         },
         {
           "line": "7.1",
           "eol_since": "2025-01-31",
-          "days_dead": 663,
+          "days_dead": 664,
           "last_release": "7.1.11"
         },
         {
           "line": "7.0",
           "eol_since": "2024-07-31",
-          "days_dead": 847,
+          "days_dead": 848,
           "last_release": "7.0.10"
         },
         {
           "line": "6.3",
           "eol_since": "2024-01-31",
-          "days_dead": 1029,
+          "days_dead": 1030,
           "last_release": "6.3.12"
         }
       ]
@@ -161,19 +161,19 @@
         {
           "line": "11",
           "eol_since": "2026-03-12",
-          "days_dead": 258,
+          "days_dead": 259,
           "last_release": "11.57.2"
         },
         {
           "line": "10",
           "eol_since": "2025-02-04",
-          "days_dead": 659,
+          "days_dead": 660,
           "last_release": "10.50.5"
         },
         {
           "line": "9",
           "eol_since": "2024-02-06",
-          "days_dead": 1023,
+          "days_dead": 1024,
           "last_release": "9.52.24"
         }
       ]
@@ -193,7 +193,7 @@
         {
           "line": "14",
           "eol_since": "2025-10-26",
-          "days_dead": 395,
+          "days_dead": 396,
           "last_release": "14.2.35"
         }
       ]
@@ -213,13 +213,13 @@
         {
           "line": "14",
           "eol_since": "2025-10-26",
-          "days_dead": 395,
+          "days_dead": 396,
           "last_release": "14.2.35"
         },
         {
           "line": "13",
           "eol_since": "2024-12-21",
-          "days_dead": 704,
+          "days_dead": 705,
           "last_release": "13.5.11"
         }
       ]
@@ -239,13 +239,13 @@
         {
           "line": "14",
           "eol_since": "2025-10-26",
-          "days_dead": 395,
+          "days_dead": 396,
           "last_release": "14.2.35"
         },
         {
           "line": "13",
           "eol_since": "2024-12-21",
-          "days_dead": 704,
+          "days_dead": 705,
           "last_release": "13.5.11"
         }
       ]
@@ -265,31 +265,31 @@
         {
           "line": "4.2",
           "eol_since": "2026-04-07",
-          "days_dead": 232,
+          "days_dead": 233,
           "last_release": "4.2.30"
         },
         {
           "line": "5.1",
           "eol_since": "2025-12-03",
-          "days_dead": 357,
+          "days_dead": 358,
           "last_release": "5.1.15"
         },
         {
           "line": "5.0",
           "eol_since": "2025-04-02",
-          "days_dead": 602,
+          "days_dead": 603,
           "last_release": "5.0.14"
         },
         {
           "line": "3.2",
           "eol_since": "2024-04-01",
-          "days_dead": 968,
+          "days_dead": 969,
           "last_release": "3.2.25"
         },
         {
           "line": "4.1",
           "eol_since": "2023-12-01",
-          "days_dead": 1090,
+          "days_dead": 1091,
           "last_release": "4.1.13"
         }
       ]
@@ -309,13 +309,13 @@
         {
           "line": "14",
           "eol_since": "2025-10-26",
-          "days_dead": 395,
+          "days_dead": 396,
           "last_release": "14.2.35"
         },
         {
           "line": "13",
           "eol_since": "2024-12-21",
-          "days_dead": 704,
+          "days_dead": 705,
           "last_release": "13.5.11"
         }
       ]
@@ -335,37 +335,37 @@
         {
           "line": "8.0",
           "eol_since": "2026-07-31",
-          "days_dead": 117,
+          "days_dead": 118,
           "last_release": "8.0.16"
         },
         {
           "line": "7.3",
           "eol_since": "2026-01-31",
-          "days_dead": 298,
+          "days_dead": 299,
           "last_release": "7.3.11"
         },
         {
           "line": "7.2",
           "eol_since": "2025-07-31",
-          "days_dead": 482,
+          "days_dead": 483,
           "last_release": "7.2.9"
         },
         {
           "line": "7.1",
           "eol_since": "2025-01-31",
-          "days_dead": 663,
+          "days_dead": 664,
           "last_release": "7.1.11"
         },
         {
           "line": "7.0",
           "eol_since": "2024-07-31",
-          "days_dead": 847,
+          "days_dead": 848,
           "last_release": "7.0.10"
         },
         {
           "line": "6.3",
           "eol_since": "2024-01-31",
-          "days_dead": 1029,
+          "days_dead": 1030,
           "last_release": "6.3.12"
         }
       ]
@@ -385,37 +385,37 @@
         {
           "line": "8.0",
           "eol_since": "2026-07-31",
-          "days_dead": 117,
+          "days_dead": 118,
           "last_release": "8.0.16"
         },
         {
           "line": "7.3",
           "eol_since": "2026-01-31",
-          "days_dead": 298,
+          "days_dead": 299,
           "last_release": "7.3.11"
         },
         {
           "line": "7.2",
           "eol_since": "2025-07-31",
-          "days_dead": 482,
+          "days_dead": 483,
           "last_release": "7.2.9"
         },
         {
           "line": "7.1",
           "eol_since": "2025-01-31",
-          "days_dead": 663,
+          "days_dead": 664,
           "last_release": "7.1.11"
         },
         {
           "line": "7.0",
           "eol_since": "2024-07-31",
-          "days_dead": 847,
+          "days_dead": 848,
           "last_release": "7.0.10"
         },
         {
           "line": "6.3",
           "eol_since": "2024-01-31",
-          "days_dead": 1029,
+          "days_dead": 1030,
           "last_release": "6.3.12"
         }
       ]
@@ -435,13 +435,13 @@
         {
           "line": "6.1",
           "eol_since": "2026-10-18",
-          "days_dead": 38,
+          "days_dead": 39,
           "last_release": "6.1.0"
         },
         {
           "line": "6.0",
           "eol_since": "2026-04-14",
-          "days_dead": 225,
+          "days_dead": 226,
           "last_release": "6.0.0"
         }
       ]
@@ -461,25 +461,25 @@
         {
           "line": "5.6",
           "eol_since": "2026-02-14",
-          "days_dead": 284,
+          "days_dead": 285,
           "last_release": "5.6.11"
         },
         {
           "line": "5.5",
           "eol_since": "2025-08-14",
-          "days_dead": 468,
+          "days_dead": 469,
           "last_release": "5.5.16"
         },
         {
           "line": "5.4",
           "eol_since": "2025-02-14",
-          "days_dead": 649,
+          "days_dead": 650,
           "last_release": "5.4.14"
         },
         {
           "line": "5.2",
           "eol_since": "2024-02-14",
-          "days_dead": 1015,
+          "days_dead": 1016,
           "last_release": "5.2.10"
         }
       ]
